@@ -1,3 +1,3 @@
 # Part 1
 
-![cat /etc/issue](Screenshots/part1.jpg)
+![linux ubuntu version](/Screenshots/part1.jpg)
