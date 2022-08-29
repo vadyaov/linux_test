@@ -3,7 +3,7 @@
 * cat /etc/issue - определение дистрибутива linux(Debian)
 
 ![linux ubuntu version](/Screenshots/part_1.jpg)
-            linux ubuntu version  
+            <center>linux ubuntu version</center>
             
 ## Part 2 Создание пользователя ##
 
@@ -18,4 +18,4 @@
 
 ![accounts info](/Screenshots/part_2.2.jpg)
             accounts info  
-            
+
