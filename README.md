@@ -66,3 +66,8 @@
 
 ![after_config-file](/Screenshots/part_3.8.jpg)  
 *after reboot config file*  
+
+* ping 1.1.1.1 - 0% packet loss  
+![1.1.1.1](/Screenshots/part_3.9.jpg)  
+*1.1.1.1*  
+
