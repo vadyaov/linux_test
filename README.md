@@ -48,7 +48,8 @@
 ![ip-adresses](/Screenshots/part_3.5.jpg)  
 *ip-adresses*
 
-* ip route | grep default - **Еще один вариант для получения внутреннего ip-адреса (ip-адреса по умолчанию)
+* ip route | grep default - **Еще один вариант для получения внутреннего ip-адреса (ip-адреса по умолчанию)  
+
 ![ip-adress_in](/Screenshots/part_3.6.jpg)  
 *ip-adress_in*  
 
@@ -59,10 +60,10 @@
 *init config file*  
 
 * Основные настройки:  
-* * addresses — ip адрес который будет назначен сетевой карте
-* * gateway4 — ip адрес роутера
-* * nameservers — DNS сервера. Первый - наш роутер
-* * search - домен в котором будет произведен поиск. Домен можно настроить при помощи DNS сервера  
+  * addresses — ip адрес который будет назначен сетевой карте
+  * gateway4 — ip адрес роутера
+  * nameservers — DNS сервера. Первый - наш роутер
+  * search - домен в котором будет произведен поиск. Домен можно настроить при помощи DNS сервера  
 
 ![after_config-file](/Screenshots/part_3.8.jpg)  
 *end config file*  
