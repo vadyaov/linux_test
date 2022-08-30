@@ -62,8 +62,7 @@
 * Основные настройки:  
   * addresses — ip адрес который будет назначен сетевой карте
   * gateway4 — ip адрес роутера
-  * nameservers — DNS сервера. Первый - наш роутер
-  * search - домен в котором будет произведен поиск. Домен можно настроить при помощи DNS сервера  
+  * nameservers — DNS сервера
 
 ![after_config-file](/Screenshots/part_3.8.jpg)  
-*end config file*  
+*after reboot config file*  
