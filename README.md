@@ -41,4 +41,20 @@
 
 ![ip-adress](/Screenshots/part_3.4.jpg)  
 *ip-adress*  
-* DHCP (англ. Dynamic Host Configuration Protocol — протокол динамической настройки узла) — прикладной протокол, позволяющий сетевым устройствам автоматически получать IP-адрес и другие параметры, необходимые для работы в сети TCP/IP. Данный протокол работает по модели «клиент-сервер». 
+* DHCP (англ. Dynamic Host Configuration Protocol — протокол динамической настройки узла) — прикладной протокол, позволяющий сетевым устройствам автоматически получать IP-адрес и другие параметры, необходимые для работы в сети TCP/IP. Данный протокол работает по модели «клиент-сервер».  
+
+* - wget -O - -q icanhazip.com. Для того чтобы определить внешний ip-адрес, воспользовались сервисом, так как ip addr показывает только локальные ip-адреса.  
+
+![ip-adresses](/Screenshots/part_3.5.jpg)  
+*ip-adresses*
+
+* ip route | grep default - **Еще один вариант для получения внутреннего ip-адреса (ip-адреса по умолчанию)
+![ip-adress_in](/Screenshots/part_3.6.jpg)  
+*ip-adress_in*  
+
+* sudo vim /etc/netplan/00-installer-config.yaml - редактируем файл конфигурации netplan который находится в директории /etc/netplan/  
+Вручную задаем статичные настройки ip, gw, dns.  
+
+![config-file](/Screenshots/part_3.7.jpg)  
+*init config file*  
+
