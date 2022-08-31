@@ -169,7 +169,7 @@
 ![nano7](/Screenshots/part_7.10.jpg)  
 *nano 7*
 
-### emacs ###
+### Emacs ###
 
 *  emacs test_emacs.txt - создание файла
 * Сtrl + X --> Ctrl + C - выйти
@@ -209,3 +209,41 @@
 
 ![emacs6](/Screenshots/part_7.16.jpg)  
 *emacs 6*
+
+## Part 8 Установка и базованя настройка сервиса SSHD ##
+
+* sudo apt update - обновление индекса пакетов  
+* sudo apt-get install ssh - установка ssh
+
+![download](/Screenshots/part_8.1.jpg)
+*download ssh*
+
+* sudo apt install openssh-server - установка OpenSSH
+* sudo systemctl enable sshd - добавляем пакет SSH-сервера в автозагрузку
+
+![download](/Screenshots/part_8.2.jpg)
+*ssh autorun*
+
+* enabled на скриншоте - значит автозагрузка включена
+
+* чтобы изменить порт (по умолчанию всегда 22): sudo vim /etc/ssh/sshd_config
+* меняет 22 на 2022
+
+* Команда ps - информация о процессах. Ключи:
+  * -A, -e - выбрать все процессы;
+  * -a - выбрать все процессы, кроме фоновых;
+  * -d - выбрать все процессы, даже фоновые, кроме процессов сессий;
+  * -N - выбрать все процессы кроме указанных;
+  * -С - выбирать процессы по имени команды;
+  * -G - выбрать процессы по ID группы;
+  * -p - выбрать процессы PID;
+  * --ppid - выбрать процессы по PID родительского процесса;
+  * -s - выбрать процессы по ID сессии;
+  * -t - выбрать процессы по tty;
+  * -u, (U) - выбрать процессы пользователя.
+
+* Чтобы найти процесс sshd среди всех процессов, сначала узнаем PID sshd процесс с помощью команды systemctl status sshd, затем с помощью команды ps -p PID находим процесс sshd.
+
+![sshd proc](/Screenshots/part_8.3.jpg)
+*sshd process*
+
