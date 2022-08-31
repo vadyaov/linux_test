@@ -92,9 +92,36 @@
 * sudo -u vad sudo hostname user-2 - изменили hostname на user-2 от пользователя vad  
 
 ![sudo](/Screenshots/part_5.1.jpg)  
+*sudo*
 
 ## Part 6 Установка и настройка службы времени ##
 
 * timedatectl и timedateclt show - информация о настройках времени
 
 ![timedatectl](/Screenshots/part_6.1.jpg)  
+*timedatectl*
+
+## Part 7 Vim Nano Geany ##
+
+# Vim #
+
+* vim test_vim.txt - создание файла
+* i - переходим в режим insert
+* ESC-->:wq - сохранить и выйти
+
+![vim1](/Screenshots/part_7.1.jpg)  
+*vim 1*
+
+* vim test_vim.txt - открывает файл для редактирования
+* dd - удалить строку на которой стоит курсор
+* i - переходим в режим редактирования
+* 21 School 21
+* ESC-->:q - выход без сохранения изменений
+
+![vim2](/Screenshots/part_7.2.jpg)  
+*vim 2*
+
+* /word - поиск слова
+
+![vim3](/Screenshots/part_7.3.jpg)  
+*vim 3*
