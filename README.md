@@ -71,3 +71,6 @@
 ![1.1.1.1](/Screenshots/part_3.9.jpg)  
 *1.1.1.1*  
 
+* ping ya.ru - 0% packet loss  
+![yandex](/Screenshots/part_3.10.jpg)  
+*yandex*  
