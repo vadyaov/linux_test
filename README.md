@@ -329,5 +329,5 @@
 
 * +hostname, +uptime, +clock
 
-![htop_add](/Screenshots/part_9.9.jpg)  
+![htop_add](/Screenshots/part_9.8.jpg)  
 *htop_add*
