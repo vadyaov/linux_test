@@ -103,7 +103,7 @@
 
 ## Part 7 Vim Nano Geany ##
 
-# Vim #
+### Vim ###
 
 * vim test_vim.txt - создание файла
 * i - переходим в режим insert
