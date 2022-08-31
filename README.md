@@ -275,6 +275,8 @@
 
 ## Part 9 top htop ##
 
+### top ###
+
 ![top](/Screenshots/part_9.1.jpg)  
 *top*  
 * uptime = 51 min
@@ -290,3 +292,42 @@
 * Mem - информация об использовании физической оперативной памяти
 * Swap - информация об использовании раздела подкачки
 * PID 1243 - больше всего память (root процесс)
+
+### htop ###
+
+* сортировка по PID
+
+![htop_PID](/Screenshots/part_9.2.jpg)  
+*htop_PID*
+
+* сортировка по PERCENT_CPU
+
+![htop_CPU](/Screenshots/part_9.3.jpg)  
+*htop_CPU*
+
+
+* сортировка по PERCENT_MEM
+
+![htop_MEM](/Screenshots/part_9.4.jpg)  
+*htop_MEM*
+
+
+* сортировка по TIME
+
+![htop_TIME](/Screenshots/part_9.5.jpg)  
+*htop_TIME*  
+
+* sshd filter
+
+![htop_sshd](/Screenshots/part_9.6.jpg)  
+*htop_sshd*  
+
+* search syslog
+
+![htop_syslog](/Screenshots/part_9.7.jpg)  
+*htop_syslog*
+
+* +hostname, +uptime, +clock
+
+![htop_add](/Screenshots/part_9.9.jpg)  
+*htop_add*
