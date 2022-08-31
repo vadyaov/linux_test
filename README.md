@@ -125,3 +125,31 @@
 
 ![vim3](/Screenshots/part_7.3.jpg)  
 *vim 3*
+
+* Чтобы заменить слово в строке на другое слово:
+  * передвигаем курсор на строку с нужным словом
+  * ESQ --> :s/old_word/new_word
+
+![vim4](/Screenshots/part_7.4.jpg)  
+*vim 4*
+
+### Nano ###
+
+*  - создание файла
+* 
+*  - сохранить и выйти
+
+![nano1](/Screenshots/part_7.5.jpg)  
+*nano 1*
+
+*  - открывает файл для редактирования
+* 21 School 21
+* - выход без сохранения изменений
+
+![nano2](/Screenshots/part_7.6.jpg)  
+*nano 2*
+
+*  - поиск слова
+
+![nano3](/Screenshots/part_7.7.jpg)  
+*nano 3*
