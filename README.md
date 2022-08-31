@@ -68,10 +68,12 @@
 *after reboot config file*  
 
 * ping 1.1.1.1 - 0% packet loss  
+
 ![1.1.1.1](/Screenshots/part_3.9.jpg)  
 *1.1.1.1*  
 
 * ping ya.ru - 0% packet loss  
+
 ![yandex](/Screenshots/part_3.10.jpg)  
 *yandex*  
 
@@ -79,6 +81,7 @@
 
 * sudo apt-get update - синхронизация индекса пакетов из репозиториев.
 * sudo apt-get upgrade - установка пакетов.  
+
 ![update](/Screenshots/part_4.1.jpg)  
 *update*  
 
@@ -87,4 +90,5 @@
 * Команда sudo предоставляет возможность пользователям выполнять команды от имени суперпользователя root, либо других пользователей.
 * sudo usermod -a -G sudo vad - предоставили пользователю vad права root
 * sudo -u vad sudo hostname user-2 - изменили hostname на user-2 от пользователя vad  
+
 ![sudo](/Screenshots/part_5.1.jpg)  
