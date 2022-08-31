@@ -101,7 +101,7 @@
 ![timedatectl](/Screenshots/part_6.1.jpg)  
 *timedatectl*
 
-## Part 7 Vim Nano Geany ##
+## Part 7 Vim Nano Emacs ##
 
 ### Vim ###
 
@@ -162,9 +162,50 @@
 *nano 5*  
   * вводим строку, на которую необходимо произвести замену --> Enter
 
-![nano6](/Screenshots/part_7.8.jpg)  
+![nano6](/Screenshots/part_7.9.jpg)  
 *nano 6* 
   * nano спрашивает, сделать ли данную замену - жмем *y* (Yes) 
 
-![nano7](/Screenshots/part_7.8.jpg)  
+![nano7](/Screenshots/part_7.10.jpg)  
 *nano 7*
+
+### emacs ###
+
+*  emacs test_emacs.txt - создание файла
+* Сtrl + X --> Ctrl + C - выйти
+* жмем *y* (Yes) для сохранения
+
+![emacs1](/Screenshots/part_7.11.jpg)  
+*emacs 1*
+
+* emacs test_emacs.txt - открывает файл для редактирования
+* 21 School 21
+* Сtrl + X --> Ctrl + C - выйти
+* жмем *n* (No) для выхода без сохранения
+
+![emacs2](/Screenshots/part_7.12.jpg)  
+*emacs 2*
+
+* Ctrl + S - поиск строки вперед
+* Ctrl + R - поиск строки назад
+* сделаем Ctrl + S nano из второй строки --> курсор окажется на букве n слова nano следующей строки
+
+![emacs3](/Screenshots/part_7.13.jpg)  
+*emacs 3*
+
+* Чтобы заменить слово в строке на другое слово:
+  * команда query-replace - Alt + %
+  * вводим строку, которую необходимо перезаписать --> Enter
+
+![emacs4](/Screenshots/part_7.14.jpg)  
+*emacs 4*
+
+  * вводим строку, на которую необходимо произвести замену --> Enter
+
+![emacs5](/Screenshots/part_7.15.jpg)  
+*emacs 5*
+
+  * ВАЖНО: курсор должен стоять выше (как минимум на одну строку) той строки, которую необходимо перезаписать
+
+![emacs6](/Screenshots/part_7.16.jpg)  
+*emacs 6*
