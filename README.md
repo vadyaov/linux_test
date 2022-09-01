@@ -331,3 +331,40 @@
 
 ![htop_add](/Screenshots/part_9.8.jpg)  
 *htop_add*
+
+## Part 10 fdisk ##
+
+![fdisk](/Screenshots/part_10.jpg)  
+*fdisk*  
+
+## Part 11 df утилита ##
+
+* df
+* информация выводится в килобайтах 
+
+![df](/Screenshots/part_11.1.jpg)  
+*df*  
+
+* df -Th
+* вывод в более читаемом формате + тип файловой системы
+
+![df](/Screenshots/part_11.2.jpg)  
+*df -Th*  
+
+## Part 12 du утлита ##
+
+* home  
+![du](/Screenshots/part_12.1.jpg)  
+*du -h*  
+
+* var  
+![du](/Screenshots/part_12.2.jpg)  
+*du -h*  
+
+* var/log  
+![du](/Screenshots/part_12.3.jpg)  
+*du -h*
+
+* var/log/*  
+![du](/Screenshots/part_12.4.jpg)  
+*du -h*
