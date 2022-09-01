@@ -368,3 +368,17 @@
 * var/log/*  
 ![du](/Screenshots/part_12.4.jpg)  
 *du -h*
+
+## Part 13 ncdu утлита ##
+
+* home  
+![ncdu](/Screenshots/part_13.1.jpg)  
+*ncdu home* 
+
+* var  
+![du](/Screenshots/part_13.2.jpg)  
+*ncdu var*  
+
+* var/log  
+![du](/Screenshots/part_13.3.jpg)  
+*ncdu var/log*
