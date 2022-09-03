@@ -382,3 +382,12 @@
 * var/log  
 ![du](/Screenshots/part_13.3.jpg)  
 *ncdu var/log*
+
+## Part 14 Auth && SSH ##
+
+![Auth](/Screenshots/part_14.1.jpg) 
+*Auth*
+
+![SSH](/Screenshots/part_14.2.jpg) 
+*SSH*
+
